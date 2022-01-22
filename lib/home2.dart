@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, prefer_const_constructors_in_immutables
+
 import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:syncfusion_flutter_charts/charts.dart';
@@ -31,6 +33,7 @@ class _Home2State extends State<Home2> {
     return SafeArea(
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: "MoneyTracker",
         home: Scaffold(
             body: SfCartesianChart(
               title: ChartTitle(text: "Graph"),
